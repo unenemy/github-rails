@@ -1,0 +1,7 @@
+= paginate @repositories_paginator
+%table.table
+  %tbody
+    - @repositories.each do |repo|
+      %tr
+        %td= repo.name
+        %td= repo.owner.login
