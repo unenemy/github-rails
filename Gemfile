@@ -19,12 +19,12 @@ gem 'haml'
 gem 'simple_form'
 gem 'pry'
 gem 'kaminari'
-gem 'rspec'
 
 group :development, :test do
   gem 'erb2haml'
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'rspec-rails'
 end
 
